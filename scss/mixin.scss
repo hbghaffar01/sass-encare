@@ -1,0 +1,16 @@
+// mixin 
+@mixin  commoncode {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@mixin  flex{
+  display: flex;
+}
+
+@mixin  margin{
+  margin: inherit;
+}

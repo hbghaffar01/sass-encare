@@ -1,0 +1,887 @@
+@import "var";
+@import "mixin";
+
+@media screen and (max-width: 2660px) {
+	.benefit_wrapper {
+		.benefit_cards {
+			.cards {
+				width: 100%;
+				height: 32.4%;
+				background-color: $bg-color-6;
+				margin-top: 10px;
+			}
+		}
+	}
+	.cards_section {
+		.cards_option {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			@include flex;
+			margin: auto;
+			margin-top: -25px;
+			margin-left: 2.5rem;
+		}
+	}
+	.benefit_cards {
+		.cards_content {
+			margin-left: 10%;
+			padding-top: 5rem;
+		}
+	}
+	.feature_wrapper {
+		.box {
+			width: 180px;
+			height: 100px;
+			position: relative;
+			background: $bg-color-4;
+			left: 72%;
+			top: -5rem;
+		}
+		p {
+			font-weight: 300;
+			color: $bg-color-8;
+			padding-top: 2rem;
+		}
+	}
+}
+@media screen and (max-width: 1440px) {
+	.benefit_wrapper {
+		.benefit_cards {
+			.cards {
+				width: 100%;
+				height: 10rem;
+				margin: 0;
+				background-color: $bg-color-6;
+			}
+		}
+	}
+  .cards_section {
+		.cards_option {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			@include flex;
+			margin: auto;
+			margin-top: -25px;
+			margin-left: .5rem;
+		}
+	}
+  
+	.benefit_cards {
+		.cards_content {
+			margin-left: 10%;
+			padding-top: 30px;
+		}
+	}
+	.feature_wrapper {
+		p {
+			font-weight: 300;
+			color: $bg-color-8;
+			padding-top: 0rem;
+		}
+		.box {
+			width: 180px;
+			height: 100px;
+			position: relative;
+			background: $bg-color-4;
+			left: 70%;
+			top: -5rem;
+		}
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.line2 {
+		padding-right: 9rem;
+	}
+	.navbar-collapse {
+		li {
+			margin: 10px;
+		}
+	}
+	.button {
+		a {
+			margin-left: 2rem;
+		}
+	}
+	.cards_section {
+		.cards_option {
+			margin-left: -1.5rem;
+		}
+	}
+}
+@media screen and (max-width: 1099px) {
+	.line2 {
+		padding-right: 7rem;
+	}
+}
+@media screen and (max-width: 991px) {
+	.navbar-light {
+		.navbar-toggler {
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+	}
+	.navbar {
+		text-align: center;
+		.button {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			@include flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+		}
+	}
+	.feature_wrapper {
+		.box {
+			width: 150px;
+			height: 100px;
+		}
+		.img_title {
+			width: 130px;
+			height: 90px;
+			h1 {
+				font-size: 40px;
+				left: 2px;
+				top: 20px;
+			}
+			h6 {
+				top: 25px;
+				right: -2px;
+				margin-right: 5px;
+			}
+		}
+		.feature_img {
+			img {
+				width: 100%;
+				height: 90%;
+			}
+		}
+	}
+	.detail_wrapper {
+		.cards {
+			@include margin;
+		}
+		.cards_section {
+			.row {
+				margin-left: 5px;
+				&:last-child {
+					margin-top: 1rem;
+				}
+			}
+		}
+	}
+	.benefit_cards {
+		.cards_content {
+			margin-left: 1%;
+			h4 {
+				margin-left: .5rem;
+				font-size: 20px;
+			}
+		}
+		a {
+			margin-right: 1rem;
+		}
+	}
+	.cards {
+		.cards_content {
+			h6 {
+				margin-top: 0px;
+				font-size: 12px;
+			}
+		}
+	}
+	.client_Wrapper {
+		.row {
+			@include margin;
+			margin-bottom: 2rem;
+		}
+	}
+}
+.footer_wrapper {
+	.section-5 {
+		width: 100%;
+		height: 50px;
+		background-color: $bg-color-5;
+		margin-bottom: 1rem;
+	}
+}
+@media screen and (max-width: 900px) {
+	.cards_section {
+		.cards_option {
+			margin-left: -0.5rem;
+		}
+	}
+	.benefit_cards {
+		a {
+			margin-right: 4px;
+		}
+		.cards_content {
+			h4 {
+				margin-left: 0rem;
+			}
+		}
+	}
+	.client {
+		background-color: $bg-color-4;
+		width: 300px;
+		height: 320px;
+		margin-top: 2rem;
+		margin-bottom: 0rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	.card_wrapper {
+		.container {
+			width: 550px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			@include flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+			margin-left: 5rem;
+			margin: auto;
+			position: relative;
+			top: -5rem;
+			background: $bg-color-4;
+		}
+		.card {
+			width: auto;
+			height: auto;
+			margin: auto;
+		}
+	}
+	.card {
+		h2 {
+			font-weight: 300;
+			font-size: 25px;
+			margin-left: 8rem;
+			margin-top: 12px;
+		}
+		h4 {
+			font-weight: 300;
+			font-size: 20px;
+			top: -15px;
+			margin-left: 8rem;
+		}
+		i {
+			width: 30%;
+			height: 120px;
+			.fa-greater-than {
+				&:before {
+					content: "\f531";
+					top: 25px;
+					left: 70px;
+					position: relative;
+					font-size: 90px;
+				}
+			}
+		}
+		&:hover {
+			.content {
+				width: 100%;
+				height: 30%;
+			}
+		}
+	}
+	.fa-greater-than {
+		&:before {
+			content: "\f531";
+			top: 25px;
+			left: 65px;
+			position: relative;
+			font-size: 70px;
+		}
+	}
+	.feature_wrapper {
+		margin-top: 0rem;
+		.box {
+			width: 150px;
+			height: 100px;
+			margin-left: -2rem;
+		}
+	}
+	.button {
+		a {
+			margin-left: 1rem;
+		}
+	}
+	.cards_section {
+		.cards_option {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			@include flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			margin-left: 0px;
+		}
+	}
+	.form_wrapper {
+		.container-fluid {
+			margin-top: 2rem;
+			height: 10rem;
+		}
+	}
+	.detail_wrapper {
+		margin-top: 2rem;
+	}
+	.benefit_wrapper {
+		margin-top: 2rem;
+		.benefit_cards {
+			.cards {
+				width: 100%;
+				height: 15rem;
+				background-color: $bg-color-6;
+			}
+			.cards_content {
+				a {
+					float: none;
+					margin: auto;
+				}
+			}
+		}
+	}
+	.client_Wrapper {
+		margin-top: 2rem;
+		background-color: $bg-color-6;
+		.row {
+			.feedback {
+				margin: auto;
+				a {
+					margin: auto;
+				}
+			}
+			.feedback_text {
+				text-align: center;
+			}
+			.client {
+				margin-bottom: 1rem;
+				@include margin;
+				margin-top: 2rem;
+			}
+		}
+	}
+	.cards_option {
+		.nav-button1 {
+			left: 45px;
+			margin-left: -2rem;
+		}
+	}
+	.benefit_img {
+		padding-left: 0;
+	}
+	.benefit_cards {
+		.cards_content {
+			margin-left: 0%;
+			text-align: center;
+			p {
+				margin-left: 0rem;
+				margin-top: 0;
+			}
+			.fa-heart {
+				&:before {
+					content: "\f004";
+					position: relative;
+					left: 23px;
+					color: $bg-color-1;
+				}
+			}
+		}
+		i {
+			position: inherit;
+			left: 23px;
+			top: 1px;
+			color: $bg-color-1;
+		}
+	}
+	.rating {
+		display: block;
+		text-align: center;
+		h6 {
+			font-size: 14px;
+		}
+		label {
+			.fa-star {
+				&:before {
+					position: relative;
+					display: block;
+					color: $bg-color-12;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	.start_wrapper {
+		.container-fluid {
+			.donate {
+				margin-left: 1rem;
+			}
+		}
+	}
+	.footer_wrapper {
+		.container-fluid {
+			.container {
+				text-align: center;
+				.section-3 {
+					padding-right: 8rem;
+					h5 {
+						padding-left: 8rem;
+					}
+				}
+				.box {
+					margin: auto;
+				}
+			}
+		}
+		.section-3 {
+			.detail {
+				color: $bg-color-4;
+				margin-left: 8rem;
+				i {
+					padding-right: 3rem;
+				}
+				h6 {
+					margin-left: 30px;
+					font-size: 12px;
+				}
+        p{
+          position: relative;
+          top: -1.5rem;
+          left: 2rem;
+        }
+			}
+		}
+		.section-4 {
+			.get {
+				margin-top: 1.7rem;
+				margin-left: 0.5rem;
+			}
+		}
+		.section-5 {
+			width: 100%;
+			height: 50px;
+			background-color: $bg-color-5;
+			margin-bottom: 1rem;
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	.feature_wrapper {
+		.box {
+			display: none;
+		}
+	}
+	.footer_wrapper {
+		.section-5 {
+			width: 100%;
+			height: 50px;
+			background-color: $bg-color-5;
+			margin-bottom: 1rem;
+		}
+		.section-3 {
+			.detail {
+				color: $bg-color-4;
+				margin-left: 12.5rem;
+			}
+		}
+	}
+	.rating {
+		display: block;
+		text-align: center;
+		h6 {
+			font-size: 13px;
+		}
+		label {
+			.fa-star {
+				&:before {
+					position: relative;
+					display: block;
+					color: $bg-color-12;
+					font-size: 17px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	.start_wrapper {
+		.container-fluid {
+			h1 {
+				color: $bg-color-4;
+				font-size: 25px;
+			}
+			h6 {
+				position: relative;
+				top: -5rem;
+				left: 4rem;
+				color: $bg-color-4;
+			}
+		}
+	}
+	.footer_wrapper {
+		.section-3 {
+			.detail {
+				color: $bg-color-4;
+				margin-left: 12rem;
+			}
+		}
+	}
+	.benefit_wrapper {
+		.benefit_cards {
+			.cards {
+				width: 103%;
+				height: 15rem;
+				background-color: $bg-color-6;
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 440px) {
+	.benefit_wrapper {
+		.benefit_cards {
+			padding-left: 5px;
+			.cards {
+				width: 103%;
+				height: 15rem;
+				background-color: $bg-color-6;
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.benefit_cards {
+		.cards_content {
+			h4 {
+				margin-left: 1rem;
+			}
+		}
+	}
+	.client_Wrapper {
+		.client {
+			margin-bottom: 1rem;
+		}
+	}
+	.start_wrapper {
+		.container-fluid {
+			h6 {
+				position: relative;
+				top: -5rem;
+				left: 3.1rem;
+				color: $bg-color-4;
+			}
+			h1 {
+				color: $bg-color-4;
+				font-size: 20px;
+			}
+		}
+	}
+	.footer_wrapper {
+		.section-3 {
+			.detail {
+				color: $bg-color-4;
+				margin-left: 11rem;
+				p {
+					position: relative;
+					top: -1.5rem;
+					left: 0.2rem;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 400px) {
+	.footer_wrapper {
+		.section-3 {
+			.detail {
+				p {
+					position: relative;
+					top: -1.5rem;
+					left: 1rem;
+					font-size: 10px;
+				}
+				color: $bg-color-4;
+				margin-left: 9rem;
+			}
+		}
+	}
+	.fa-greater-than {
+		&:before {
+			content: "\f531";
+			top: 25px;
+			left: 45px;
+			position: relative;
+			font-size: 60px;
+		}
+	}
+	.rating {
+		display: block;
+		text-align: center;
+		h6 {
+			font-size: 12px;
+		}
+		label {
+			.fa-star {
+				&:before {
+					position: relative;
+					display: block;
+					color: $bg-color-12;
+					font-size: 17px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 380px) {
+	.start_wrapper {
+		.container-fluid {
+			a {
+				background-color: $bg-color-3;
+				width: 140px;
+				height: 45px;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				@include flex;
+				text-align: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				border-radius: 25px;
+				color: $bg-color-4;
+				outline: none;
+				-webkit-text-decoration: auto;
+				text-decoration: auto;
+				margin-bottom: 2rem;
+				margin-left: 1rem;
+				font-size: 10px;
+			}
+			.fa-heart {
+				&:before {
+					content: "\f004";
+					font-size: 20px;
+					margin-left: 5px;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	.footer_wrapper {
+		.section-3 {
+			.detail {
+				h6 {
+					margin-top: -2rem;
+					font-size: 12px;
+				}
+			}
+		}
+		.container-fluid {
+			.container {
+				.box {
+					margin-left: 5.5rem;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 350px) {
+	.line2 {
+		padding-right: 2rem;
+	}
+	.fa-greater-than {
+		&:before {
+			content: "\f531";
+			top: 25px;
+			left: 20px;
+			position: relative;
+			font-size: 60px;
+			content: "\f531";
+			top: 25px;
+			left: 30px;
+			position: relative;
+			font-size: 60px;
+		}
+	}
+	.card {
+		h2 {
+			font-weight: 300;
+			font-size: 20px;
+			margin-left: 20px;
+			margin-top: 15px;
+		}
+		h4 {
+			font-weight: 300;
+			font-size: 18px;
+			top: -15px;
+			margin-left: 20px;
+		}
+	}
+	.button2 {
+		a {
+			background-color: $bg-color-1;
+			width: 120px;
+			height: 40px;
+			font-size: 10px;
+			&::after {
+				content: '';
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				border-radius: 50px;
+				background-color: $bg-color-4;
+				margin-right: 10px;
+			}
+		}
+		i {
+			position: relative;
+			left: 14px;
+			color: $bg-color-1;
+		}
+	}
+	.cards_option {
+		.nav-button1 {
+			left: 45px;
+			margin-left: -2.5rem;
+		}
+	}
+	.form_wrapper {
+		.form_title {
+			h1 {
+				color: $bg-color-4;
+				font-weight: 350;
+				font-size: 18px;
+			}
+		}
+	}
+	.footer_wrapper {
+		.section-3 {
+			.detail {
+				color: $bg-color-4;
+				margin-left: 9rem;
+			}
+		}
+	}
+}
+@media screen and (max-width: 300px) {
+	.cards_option {
+		.nav-button2 {
+			width: 50%;
+			height: 50px;
+		}
+		.nav-button1 {
+			left: 45px;
+			margin-left: -2.8rem;
+		}
+	}
+	.form_wrapper {
+		.form_title {
+			h1 {
+				color: $bg-color-4;
+				font-weight: 350;
+				font-size: 15px;
+			}
+		}
+	}
+	.client {
+		.client_text {
+			position: relative;
+			float: right;
+			right: 2.2rem;
+			h6 {
+				color: $bg-color-1;
+				font-size: 10px;
+			}
+			h5 {
+				font-size: 11px;
+			}
+		}
+		p {
+			text-align: center;
+			display: inline-block;
+		}
+	}
+	.rating {
+		display: block;
+		text-align: center;
+		h6 {
+			font-size: 10px;
+		}
+		label {
+			.fa-star {
+				&:before {
+					position: relative;
+					display: block;
+					font-size: 20px;
+					color: $bg-color-12;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	.start_wrapper {
+		.container-fluid {
+			a {
+				background-color: $bg-color-3;
+				width: 160px;
+				height: 45px;
+				border-radius: 25px;
+				margin-left: .5rem;
+			}
+			h1 {
+				color: $bg-color-4;
+				font-size: 15px;
+			}
+			h6 {
+				position: relative;
+				top: -4rem;
+				left: 2.4rem;
+				color: $bg-color-4;
+				font-size: 12px;
+			}
+		}
+	}
+	.footer_wrapper {
+		.container-fluid {
+			.container {
+				.box {
+					margin: auto;
+					margin-left: 4rem;
+				}
+			}
+		}
+		.section-3 {
+			.detail {
+				color: $bg-color-4;
+				margin-left: 8rem;
+				i {
+					padding-right: 0rem;
+				}
+				p {
+					position: relative;
+					top: -1.5rem;
+					left: 1rem;
+					font-size: 12px;
+				}
+				h6 {
+					margin-top: -2rem;
+					font-size: 12px;
+				}
+			}
+		}
+		.section-5 {
+			p {
+				text-align: center;
+				margin-top: 14px;
+				font-size: 15px;
+				text-align: center;
+				margin-top: 14px;
+				font-size: 13px;
+			}
+		}
+	}
+}
